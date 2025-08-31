@@ -34,4 +34,6 @@ In order to install macOS onto your Pixelbook, you're going to need to flash cor
 There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover CAREFULLY. there will be a black or orange strip connecting the cover to the motherboard. The strip should look like this:
 
 (The strip had broken off this Pixelbook Go. For you, it should be connected to the next picture)
+![My Image](IMG_0468[1].jpg)
+
 
