@@ -18,7 +18,7 @@ This repository was made with [@olm3ca](https://github.com/olm3ca)'s testing as 
 (6.   Patience. For most users, it may take days, even weeks to achieve macOS on a Pixelbook. There will be a lot of trial and error.
 
 # Device
-I will be using my personal Pixelbook Go for this guide. All pictures will be from me.
+I will be using my personal Pixelbook Go for this guide. Most pictures will be from me.
 
 # Specifications
 i5-8200Y, 16GB RAM, 128GB eMMC storage.
