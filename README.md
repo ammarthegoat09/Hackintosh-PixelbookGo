@@ -13,7 +13,7 @@ This repository was made with [@olm3ca](https://github.com/olm3ca)'s testing as 
 
 (4.   A willingness that you, the user, know that flashing firmware and installing 3rd party operating systems can potentially damage or destroy your Pixelbook.
 
-(5.   A T3/T5 Torx screwdriver. (T3 for the Pixelbook and T5 for the Pixelbook Go)
+(5.   A T3 and T5 Torx screwdriver. 
 
 (6.   Patience. For most users, it may take days, even weeks to achieve macOS on a Pixelbook. There will be a lot of trial and error.
 
@@ -28,5 +28,10 @@ If your Pixelbook doesn't have these specs, don't worry. This guide should be ab
 If you have already flashed coreboot onto your Pixelbook, you can skip this. If you still have ChromeOS on your Pixelbook, keep reading.
 
 In order to install macOS onto your Pixelbook, you're going to need to flash coreboot. Coreboot is an open-source, Free Software bootloader that is aimed to change the firmware on someones computer. In this case, we are installing coreboot so that way we can remove the limitations of ChromeOS firmware. But how are we going to do it? First, we are going to need disable write-protect. What is write-protect you may ask? Well, simplified, its just a mechanism on your Pixelbook (Chromebooks in general) that is meant to stop the user from flashing any 3rd party firmware. In order to disable write-protect on our Pixelbook, first shut it down and flip it onto its bottom side like this:
+
 ![My Image](IMG_0468[1].jpg)
+
+There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover CAREFULLY. there will be a black or orange strip connecting the cover to the motherboard. The strip should look like this:
+
+(The strip had broken off this Pixelbook Go. For you, it should be connected to the next picture)
 
