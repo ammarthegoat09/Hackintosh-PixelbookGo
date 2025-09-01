@@ -35,9 +35,13 @@ There are two ways to disable write protect on your Pixelbook:
 
 (2. Using a SuzyQ[able]. You can either [buy a SuzyQable](https://www.ebay.com/itm/316024978790) or [make your own](https://www.reddit.com/r/chrultrabook/comments/uaiz1q/making_a_chromeos_suzy_q_cable_tutorial/). You can use [this guide](https://github.com/yusefnapora/pixelbook-linux?tab=readme-ov-file) once you obtain the SuzyQable. Keep in mind that this guide is a bit outdated and the terminal they are using is not doable. You will have to use the terminal we will be using later on in this guide. Remember to only follow the ["Disabiling Write Protect"](https://github.com/yusefnapora/pixelbook-linux?tab=readme-ov-file) section of the guide.
 
-![My Image](IMG_0468[1].jpg)
 
-There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover CAREFULLY. there will be a black or orange strip connecting the cover to the motherboard. The strip should look like this:
+
+There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. You should see something like this:
+
+![My Image](pixelbook\closed.jpg)
+
+Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover CAREFULLY. there will be a black or orange strip connecting the cover to the motherboard. The strip should look like this:
 
 (The strip on this Pixelbook Go is broken. The back cover should be more lowered and the strip should be connected)
 
