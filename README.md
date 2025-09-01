@@ -40,7 +40,8 @@ In order to enable developer mode, turn on your Pixelbook and click the three ke
 
 Once you do that, you should see this on your screen:
 
-![IMG_0483](https://github.com/user-attachments/assets/6a6a2724-6a4a-4c92-9746-e7321c9290c1)
+![IMG_0483](https://github.com/user-attachments/assets/d2c1b36a-aa1a-4d62-a013-a9870df52aa0)
+
 
 At this screen, 
 
