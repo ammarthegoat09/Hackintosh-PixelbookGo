@@ -7,15 +7,17 @@ This repository was made with [@olm3ca](https://github.com/olm3ca)'s testing as 
 # Prerequisites
 (1.   A Pixelbook or Pixelbook Go (Duh!).
 
-(2.   A USB flash drive with at least 8GB of free storage as well as a USB-C to USB-A adapter.
+(2.   A spare computer. Doesn't matter the operating system. We'll need it to mkae the macOS bootable USB.
 
-(3.   An internet connection.
+(3.   A USB flash drive with at least 8GB of free storage as well as a USB-C to USB-A adapter.
 
-(4.   A willingness that you, the user, know that flashing firmware and installing 3rd party operating systems can potentially damage or destroy your Pixelbook.
+(4.   An internet connection.
 
-(5.   A T3 and T5 Torx screwdriver. 
+(5.   A willingness that you, the user, know that flashing firmware and installing 3rd party operating systems can potentially damage or destroy your Pixelbook.
 
-(6.   Patience. For most users, it may take days, even weeks to achieve macOS on a Pixelbook. There will be a lot of trial and error.
+(6.   A T3 and T5 Torx screwdriver. 
+
+(7.   Patience. For most users, it may take days, even weeks to achieve macOS on a Pixelbook. There will be a lot of trial and error.
 
 # Device
 I will be using my personal and testing Pixelbook Go for this guide. Most pictures will be from me. Some will be from other sources. You can look at CITATIONS.md for more references.
