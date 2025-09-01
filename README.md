@@ -32,7 +32,7 @@ In order to install macOS onto your Pixelbook, you're going to need to flash cor
 There are two ways to disable write protect on your Pixelbook:
 (1. Temporarily disconnecting the battery and keeping it disconnected until we flash firmware (which is what we will be doing for the guide)
 
-(2. Using a SuzyQ[able]. You can either buy a SuzyQable(https://www.ebay.com/itm/316024978790) or make your own
+(2. Using a SuzyQ[able]. You can either buy a SuzyQable(https://www.ebay.com/itm/316024978790)! or make your own
 
 ![My Image](IMG_0468[1].jpg)
 
