@@ -43,9 +43,7 @@ Once you do that, you should see this on your screen:
 ![IMG_0482](https://github.com/user-attachments/assets/cab90be1-d749-4502-8d1a-2caff88c3d19)
 
 
-
-At this screen, 
-
+At this screen, go to your keyboard on click Ctrl + D, then Enter. You will then be met with another screen. Click on the keys Ctrl + D again. Once you do all of that, wait for your Pixelbook to transition to developer mode. There will be a timer on the left corner of the screen. Wait for it to finish. You will then be able to use your Pixelbook, but with develpoer mode! But now, we're going to need to disable write-protect
 
 There are two ways to disable write-protect on your Pixelbook:
 
