@@ -126,8 +126,19 @@ Once your computer reboots, select your flash drive from the boot menu, again. H
 ![1619bfa2-99b7-49b0-b4be-efda8e50b864](https://github.com/user-attachments/assets/8201ee3e-78fe-4713-9c6e-e1dc5f523ae0)
 
 
-This is just your Pixelbook finishing up the installation of macOS. Once this loading bar finishes, your Pixelbook will reboot.
+This is just your Pixelbook finishing up the installation of macOS. Once this loading bar finishes, your Pixelbook will reboot. Again, once it reboots, go to the boot menu, select your flash drive, select "macOS Installer (external)" and wait for the verbose to finish. Instead of going to the Apple logo like last time, your Pixelbook will instead reboot. Go through the same process until you get to the OpenCore menu. There, you will notice that "macOS Installer (external)" is gone and is replaced by "Untitled (external)", or whatever you named your disk at the Disk Utility earlier. Select that option and wait for the verbose to finish. You will be greeted with the Apple logo and the loading bar again. It should be quicker than last time. The Pixelbook will reboot again (A lot of rebooting, I know!). Get back to the OpenCore menu and select the option from last time. Wait for the verbose to finish. For the last time, you will be met with an Apple logo and a loading bar. But instead of rebooting once finished, you should be met with the macOS setup! However, we're not done yet.
 
+# Making our disk accessible to macOS
+
+We now have macOS on our Pixelbook/Pixelbook Go! However, in order for macOS to work without our flash drive plugged in at all times, we are going to have to put our EFI folder into the EFI partition of our eMMC. In order to do this, go to the terminal and type the command: 
+
+<pre> diskutil list </pre>
+
+After typing the command, look for your eMMC. There, look for the parition named "EFI EFI". Next to it should be an identifier. The indentifier should be along the names of "disk1s1" or "disk2s1". (My indentifier is disk1s1, so I will be using disk1s1 for the commands later on) Once you obtain your identifier, type the following command:
+
+<pre> sudo diskutil mount disk1s1 # Replace disk1s1 with whatever identifier you have </pre>
+
+Once you 
 
 
 
