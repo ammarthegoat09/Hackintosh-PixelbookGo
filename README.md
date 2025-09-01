@@ -32,6 +32,7 @@ If you have already disabled write-protect on your Pixelbook, you can skip this.
 
 In order to install macOS onto your Pixelbook, you're going to need to flash coreboot. Coreboot is an open-source, Free Software bootloader that is aimed to change the firmware on someones computer. In this case, we are installing coreboot so that way we can remove the limitations of ChromeOS firmware. But how are we going to do it? First, we are going to need disable write-protect. What is write-protect you may ask? Well, simplified, its just a mechanism on your Pixelbook (Chromebooks in general) that is meant to stop the user from flashing any 3rd party firmware.
 
+**Enabiling developer mode**
 Before we can disable write-protect, we need to make sure developer mode is on. If it already is, you can skip this. If not enabled, keep reading.
 
 In order to enable developer mode, turn on your Pixelbook and click the three keys circled in the picture below at once.
@@ -67,5 +68,16 @@ Remove all the screws with your T5 Torx screwdriver. Once you remove all the scr
 
 ![IMG_0470](https://github.com/user-attachments/assets/59b8ba4e-2cf5-482a-a20b-c623f3364bfb)
 
-Next to the connected strip should be a green or yellow screw. Grab your T3 Torx screwdriver and unscrew it. Once you do that, remove the strip from the connector and re-screw the back cover.
+Next to the connected strip should be a green or yellow screw. Grab your T3 Torx screwdriver and unscrew it. Once you do that, remove the strip from the connector and reinstall the back cover.
+
+You have now succesfully disconnected your battery and disabled write-protect! Once we finish flashing the firmware to your Pixelbook, you can connect the strip back. But, for now, you are going to have to keep your Pixelbook plugged in for these next steps. Make sure you have a charger with at least 45W of power.
+
+# Flashing coreboot
+
+Once you turn on your Pixelbook, log in, or log in as guest, make sure you're connected to the internet and click the keys Crtl + Alt + Refresh (which looks like a loop). Once you click the keys at the same time, you will be met with a terminal. If clicking those keys don't do anything, make sure Developer Mode is on. At this terminal, log in with the name "chronos". In order to flash coreboot, we will be using [Mrchromebox](https://docs.mrchromebox.tech)'s Firmware Utility Script. This script will allow us to flash the requrired firmware for coreboot on our Pixelbook or Pixelbook Go. Once you log into the terminal, type the following commands:
+
+<pre> ```bash echo "Hello World" ls -la ``` </pre>
+
+
+
 
