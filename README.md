@@ -24,12 +24,20 @@ I will be using my personal and testing Pixelbook Go for this guide. Most pictur
 i5-8200Y, 16GB RAM, 128GB eMMC storage.
 If your Pixelbook doesn't have these specs, don't worry. This guide should be able to get the user macOS no matter the Pixelbook model. (Unless you are using the Pixelbook 512GB model. This specific model won't work for this guide due to the fact that it uses NVMe. If you are not using NVMe, you can continue on with no problems.)
 
-# Flashing the Pixelbook
-If you have already flashed coreboot onto your Pixelbook, you can skip this. If you still have ChromeOS on your Pixelbook, keep reading.
+# Disabiling write-protect
+
+If you have already disabled write-protect on your Pixelbook, you can skip this. If you haven't, keep reading.
+
+**What is write-protect and why do we need it disabled?**
 
 In order to install macOS onto your Pixelbook, you're going to need to flash coreboot. Coreboot is an open-source, Free Software bootloader that is aimed to change the firmware on someones computer. In this case, we are installing coreboot so that way we can remove the limitations of ChromeOS firmware. But how are we going to do it? First, we are going to need disable write-protect. What is write-protect you may ask? Well, simplified, its just a mechanism on your Pixelbook (Chromebooks in general) that is meant to stop the user from flashing any 3rd party firmware.
 
-**Disabiling write-protect**
+Before we can disable write-protect, we need to make sure developer mode is on. If it already is, you can skip this. If not enabled, keep reading.
+
+In order to enable developer mode, turn on your Pixelbook and click the three keys circled in the picture below at once.
+
+![IMG_0481](https://github.com/user-attachments/assets/b783801a-e8a5-47f0-a809-7771fb098787)
+
 
 There are two ways to disable write-protect on your Pixelbook:
 
@@ -52,4 +60,6 @@ Remove all the screws with your T5 Torx screwdriver. Once you remove all the scr
 (The strip on this Pixelbook Go is broken. The back cover should be more lowered and the strip should be connected)
 
 ![IMG_0470](https://github.com/user-attachments/assets/59b8ba4e-2cf5-482a-a20b-c623f3364bfb)
+
+Next to the connected strip should be a green or yellow screw. Grab your T3 Torx screwdriver and unscrew it. Once you do that, remove the strip from the connector and re-screw the back cover.
 
