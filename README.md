@@ -136,7 +136,7 @@ We now have macOS on our Pixelbook/Pixelbook Go! However, in order for macOS to 
 
 After typing the command, look for your eMMC. There, look for the parition named "EFI EFI". Next to it should be an identifier. The indentifier should be along the names of "disk1s1" or "disk2s1". (My indentifier is disk1s1, so I will be using disk1s1 for the commands later on) Once you obtain your identifier, type the following command:
 
-<pre> sudo diskutil mount disk1s1 # Replace disk1s1 with whatever identifier you have </pre>
+<pre> sudo diskutil mount disk1s1        #  Replace disk1s1 with whatever identifier you have </pre>
 
 Once you 
 
