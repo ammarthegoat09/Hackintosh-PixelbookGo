@@ -80,6 +80,10 @@ Once you turn on your Pixelbook, log in, or log in as guest, make sure you're co
 <pre> sudo install -Dt /usr/local/bin -m 755 firmware-util.sh </pre>
 <pre> sudo firmware-util.sh </pre>
 
+After typing the commands, you should be met with this:
+
+![IMG_0485](https://github.com/user-attachments/assets/7caa5e5b-b2da-4337-8af3-bb6a517a2f17)
+
 
 
 
