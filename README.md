@@ -105,7 +105,8 @@ We are now going through the process of installing macOS! In order to even get t
 
 With your arrow keys, navigate to the boot menu and select your flash drive. You should be greeted to this menu:
 
-![IMG_0488](https://github.com/user-attachments/assets/e12d546a-f6e9-4b0d-aecc-787a1f5d4a7b)
+![IMG_0484](https://github.com/user-attachments/assets/d6946bda-7f72-40d3-b8a5-73b1e7816ca3)
+
 
 Here, click the space bar and navigate to "Reset NVRAM". Your Pixelbook will reboot, and you will have to go back to the boot menu. Once you do that, at the menu, select "Install macOS Monterey (external)". Once selected, you will see a bunch of text spew out. This is normal and is called a verbose. This is useful for debugging in case you run into any problems. Wait for the verbose to finish. You will be greeted with an Apple logo and a loading bar. This should load quickly. Once that loads, you should be greeted with a language selector. Select your prefered language. You will then be at this menu:
 
