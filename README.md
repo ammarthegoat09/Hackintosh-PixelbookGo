@@ -51,8 +51,5 @@ Remove all the screws with your T5 Torx screwdriver. Once you remove all the scr
 
 (The strip on this Pixelbook Go is broken. The back cover should be more lowered and the strip should be connected)
 
-
-
-
-
+![IMG_0470](https://github.com/user-attachments/assets/59b8ba4e-2cf5-482a-a20b-c623f3364bfb)
 
