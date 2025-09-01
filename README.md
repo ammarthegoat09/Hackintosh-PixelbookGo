@@ -94,9 +94,15 @@ Congrats! You have now flashed coreboot onto your Pixelbook/Pixelbook Go! Now, w
 
 # Creating the macOS installer
 
-Now that we have coreboot, we can install our operating system, macOS. But, like any other operating system, we need to make a bootable USB. Comapred to other operating systems, creating a bootable flash drive for macOS is very complicated. However, the goal of this guide is for it to be beginner friendly, therefore, a majority of the things we are going to download are pre-made for our Pixelbook. The first thing we need to do is to go to [this](monterey) repository
+Now that we have coreboot, we can install our operating system, macOS. But, like any other operating system, we need to make a bootable USB. Comapred to other operating systems, creating a bootable flash drive for macOS is very complicated. However, the goal of this guide is for it to be beginner friendly, therefore, a majority of the things we are going to download are pre-made for our Pixelbook.
 
+Before we start, [download Rufus](https://rufus.ie/en/). At Rufus, plug in your flash drive, make your boot selection "Non-bootable", make your partition scheme GPT, then click "START". This should only take a few seconds, and will remove all data from your flash drive. Delete the two files from your Rufus flash drive.
+
+The first thing we need to do in order to make our installer is to go to [this](https://github.com/yusufklncc/Hackintosh-for-All-Computers?tab=readme-ov-file#macos-monterey) repository. Here, scroll down until you find the section "macOS Monterey". Download the installer. Then, [download Balena Etcher](https://etcher.balena.io). Then, at Balena Etcher, click on "Flash from file" and select the .raw file from the folder you downloaded earlier (the macOS installer). Then, select your flash drive and click on "Flash!". Once it finishes flashing, unplug your flash drive and plug it back in. Your flash drive should now be named "EFI" and should have a size of roughly 200 MB. Once we finish this, we must [download our EFI folder](https://github.com/Interstellar750/pixelbookgo_hackintosh/tree/main?tab=readme-ov-file). This folder is responsible for making both the installer and operating be functional, giving things such as Wi-Fi, Bluetooth, trackpad support, display, etc. Once you have downloaded the EFI folder, copy and paste it onto your flash drive. Once you have done that, eject the flash drive, and we can get started on installing macOS.
+ 
 # Installing macOS
+
+We are now going through the process of installing macOS! 
 
 
 
