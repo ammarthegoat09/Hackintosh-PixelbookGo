@@ -29,7 +29,7 @@ If you have already flashed coreboot onto your Pixelbook, you can skip this. If 
 
 In order to install macOS onto your Pixelbook, you're going to need to flash coreboot. Coreboot is an open-source, Free Software bootloader that is aimed to change the firmware on someones computer. In this case, we are installing coreboot so that way we can remove the limitations of ChromeOS firmware. But how are we going to do it? First, we are going to need disable write-protect. What is write-protect you may ask? Well, simplified, its just a mechanism on your Pixelbook (Chromebooks in general) that is meant to stop the user from flashing any 3rd party firmware.
 
-## Disabiling write-protect
+**Disabiling write-protect**
 
 There are two ways to disable write-protect on your Pixelbook:
 
