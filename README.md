@@ -1,9 +1,6 @@
 # Hackintosh-PixelbookGo
 A simple, beginner friendly, guide to install macOS onto your Pixelbook Go as well as a Pixelbook.
 
-# Credits
-This repository was made with [@olm3ca](https://github.com/olm3ca)'s testing as well as [@Interstellar750](https://github.com/Interstellar750)'s EFI folder. Please give these two as much support as possible, this repository would not have been made without them.
-
 # Prerequisites
 (1.   A Pixelbook or Pixelbook Go (Duh!).
 
@@ -136,9 +133,30 @@ We now have macOS on our Pixelbook/Pixelbook Go! However, in order for macOS to 
 
 After typing the command, look for your eMMC. There, look for the parition named "EFI EFI". Next to it should be an identifier. The indentifier should be along the names of "disk1s1" or "disk2s1". (My indentifier is disk1s1, so I will be using disk1s1 for the commands later on) Once you obtain your identifier, type the following command:
 
-<pre> sudo diskutil mount disk1s1        #  Replace disk1s1 with whatever identifier you have </pre>
+<pre> sudo diskutil mount disk1s1        # Replace disk1s1 with whatever identifier you have </pre>
 
-Once you 
+Once you typed that command, go to Finder and locate the partiton named "EFI" there will be two partitons named EFI, but choose the one with the unmount icon next to it. There, copy the folder named "EFI" and copy it to the other partiton named "EFI". Once you have dones that, reboot your Pixelbook with the flash drive unplugged. This should now make you get to the OpenCore menu automatically without having to go to the boot menu and sleecting your flash drive. Furthermore, at the OpenCore menu, there will only be one option, which is your macOS disk.
+
+# End
+
+Congrats, you have succesfully installed macOS onto your Pixelbook/Pixelbook Go! You can now enjoy the beloved environment of macOS!
+
+# Extras
+
+You may have noticed that after installing macOS, the settings updater prompts you to update to macOS Sonoma. You can do this if you want, however, before you do, you will have to install something called a kext. Simplified, kexts are just responsible for making the main things, like Wi-Fi, work on your Hackintosh. If you're going to update to macOS Sonoma, because we have Intel Wi-Fi, we will have to [download the Intel Wi-Fi kext](https://github.com/OpenIntelWireless/itlwm/releases/tag/v2.3.0) and select the kext for macOS Sonoma. Then, after you update to macOS Sonoma, mount the EFI partiton from your macOS disk, again, and replace the old kext, which is named AirportItlwm.kext, with the new kext for Sonoma. Then, reboot for the changes to take effect.
+
+I wouldn't completely suggest updating to macOS Sonoma mainly because of the specs of the Pixelbook/Pixelbook Go. It may not run as well as Monterey, and may even have more instability issues. 
+
+# Credits
+
+(1. [@olm3ca](https://github.com/olm3ca) -- Responsible for testing both the Pixelbook and Pixelbook Go for Hackintosh.
+
+(2. [Interstellar750](https://github.com/Interstellar750) -- Responsible for providing the pre-made EFI folder.
+
+(3. [yusufklncc+](https://github.com/yusufklncc) -- Responsible for providing the installer (the .raw file).
+
+
+Thanks for reading this guide! I hoped it helped you or others in installing macOS on a Pixelbook or Pixelbook Go! Please inform me if there are any grammar mistakes or unclear statements. Here's my personal email: ammar.krikib09@gmail.com
 
 
 
