@@ -32,7 +32,7 @@ In order to install macOS onto your Pixelbook, you're going to need to flash cor
 There are two ways to disable write protect on your Pixelbook:
 (1. Temporarily disconnecting the battery and keeping it disconnected until we flash firmware (which is what we will be doing for the guide)
 
-(2. Using a SuzyQ[able]. You can either [buy a SuzyQable](https://www.ebay.com/itm/316024978790)! or [make your own](https://www.reddit.com/r/chrultrabook/comments/uaiz1q/making_a_chromeos_suzy_q_cable_tutorial/)
+(2. Using a SuzyQ[able]. You can either [buy a SuzyQable](https://www.ebay.com/itm/316024978790) or [make your own](https://www.reddit.com/r/chrultrabook/comments/uaiz1q/making_a_chromeos_suzy_q_cable_tutorial/). You can use [this guide](https://github.com/yusefnapora/pixelbook-linux?tab=readme-ov-file) for the SuzyQable. Keep in mind that this guide is a bit outdated and the terminal they are using is not doable. You will have to use the terminal we will be using later on in this guide. Remember to only follow the ["Disabiling Write Protect"](https://github.com/yusefnapora/pixelbook-linux?tab=readme-ov-file) section of the guide.
 
 ![My Image](IMG_0468[1].jpg)
 
