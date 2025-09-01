@@ -88,6 +88,18 @@ After typing the commands, you should be met with this:
 
 Before we proceed, plug in your USB flash drive to your Pixelbook. (DISCLAIMER! Make sure the flash drive you're using doesn't have any important data you need! This is because using the flash drive for this script will erase all of the data in it!)
 
+At the script, type the number 2 and press enter. You will be met with some warnings. Accept all the warnings and select your plugged in flash drive. Now you have to wait. Make sure not the unplug the flash drive during the process unless prompted to. Once the flashing process is done, reset your computer.
+
+Congrats! You have now flashed coreboot onto your Pixelbook/Pixelbook Go! Now, we can get into the process of making a bootable macOS installer.
+
+# Creating the macOS installer
+
+Since we didn't install an operating system onto our Pixelbook, we are going to need to make a macOS installer, since thats what this guide is for. Now, if you know anything about making bootable USB's, usually, you only have to flash the ISO onto your flash drive and you're done. However, with macOS, it's more complicated. Because this guide is meant for beginners, I am going to try my best to make you, the user, use the most minimal effort. But, without firther ado, let's get started.
+
+On your spare computer, go to the Dortania guide at [this page](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos). If your spare computer is using Linux or macOS, go to [this page](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/linux-install.html) for Linux or [this page](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html) for macOS. (FYI, you only need to read the "Downloading macOS" section of this article)
+
+
+
 
 
 
