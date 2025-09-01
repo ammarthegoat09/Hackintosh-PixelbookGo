@@ -82,7 +82,8 @@ Once you turn on your Pixelbook, log in, or log in as guest, make sure you're co
 
 After typing the commands, you should be met with this:
 
-![IMG_0485](https://github.com/user-attachments/assets/7caa5e5b-b2da-4337-8af3-bb6a517a2f17)
+![IMG_0483](https://github.com/user-attachments/assets/73f6da08-1ea6-4029-a4d2-e064168666a5)
+
 
 
 
