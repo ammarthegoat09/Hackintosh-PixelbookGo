@@ -20,7 +20,7 @@ This repository was made with [@olm3ca](https://github.com/olm3ca)'s testing as 
 (7.   Patience. For most users, it may take days, even weeks to achieve macOS on a Pixelbook. There will be a lot of trial and error.
 
 # Device
-I will be using my personal and testing Pixelbook Go for this guide. Most pictures will be from me. Some will be from other sources. You can look at CITATIONS.md for more references.
+I will be using my personal and testing Pixelbook Go for this guide. Most pictures will be from me. Some will be from other sources, such as Reddit.
 
 # Specifications
 i5-8200Y, 16GB RAM, 128GB eMMC storage.
@@ -106,8 +106,26 @@ We are now going through the process of installing macOS! In order to even get t
 
 <img width="1024" height="768" alt="edk2_main_menu" src="https://github.com/user-attachments/assets/61f033a2-742c-4782-9e67-21f7749849e5" />
 
+With your arrow keys, navigate to the boot menu and select your flash drive. You should be greeted to this menu:
+
+![IMG_0488](https://github.com/user-attachments/assets/e12d546a-f6e9-4b0d-aecc-787a1f5d4a7b)
+
+Here, click the space bar and navigate to "Reset NVRAM". Your Pixelbook will reboot, and you will have to go back to the boot menu. Once you do that, at the menu, select "Install macOS Monterey (external)". Once selected, you will see a bunch of text spew out. This is normal and is called a verbose. This is useful for debugging in case you run into any problems. Wait for the verbose to finish. You will be greeted with an Apple logo and a loading bar. This should load quickly. Once that loads, you should be greeted with a language selector. Select your prefered language. You will then be at this menu:
+
+<img width="1010" height="768" alt="1691566482900802" src="https://github.com/user-attachments/assets/73b113c0-1633-458e-974f-5af25b42174e" />
+
+Here, connect to Wi-Fi, select "Disk Utility", click on the "View" button, and select "Show all devices"
+
+<img width="1010" height="768" alt="1691566482900802" src="https://github.com/user-attachments/assets/dcfb6a85-13ec-4274-808d-43a3f260dd70" />
+
+Then, select your eMMC. You can identify what your eMMC is by selecting the drive that has the same amount of storage as how it was when you had ChromeOS. This can be 64GB, 128GB, 256GB, or 512GB. Select it and on the top of the windows click the "Erase" button, wait for it to erase your disk, then click on the "Partition" button. There, click on the circle that contains your eMMC. If it doesn't let you apply the partiton, add a partiton by clicking the "+" button, selecting "Create partiton", then clicking the "-". You should be able to apply the partiton. Make sure your partiton scheme is APFS. After partitoning, exit Disk Utility and enter the macOS installer. Follow the prompts from the macOS installer and, once you actually start installing macOS, just wait. Make sure to keep watching your Pixelbook, because at some point, its gonna reboot.
+
+Once your computer reboots, select your flash drive from the boot menu, again. Here, you will see an additional option named "macOS installer (external)". Select it, and wait for the verbose to finish. Once the verbose finishes, once again, you will be met with an Apple logo, except the loading bar takes much longer to finish. It should look like this:
+
+![1619bfa2-99b7-49b0-b4be-efda8e50b864](https://github.com/user-attachments/assets/8201ee3e-78fe-4713-9c6e-e1dc5f523ae0)
 
 
+This is just your Pixelbook finishing up the installation of macOS. Once this loading bar finishes, your Pixelbook will reboot.
 
 
 
