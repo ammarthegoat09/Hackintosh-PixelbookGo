@@ -116,7 +116,8 @@ Here, click the space bar and navigate to "Reset NVRAM". Your Pixelbook will reb
 
 Here, connect to Wi-Fi, select "Disk Utility", click on the "View" button, and select "Show all devices"
 
-<img width="1010" height="768" alt="1691566482900802" src="https://github.com/user-attachments/assets/dcfb6a85-13ec-4274-808d-43a3f260dd70" />
+<img width="890" height="440" alt="macos-monterey-recovery-mode-disk-utility-show-all-devices" src="https://github.com/user-attachments/assets/7f45cb77-68f7-4907-ae35-28701edf1b27" />
+
 
 Then, select your eMMC. You can identify what your eMMC is by selecting the drive that has the same amount of storage as how it was when you had ChromeOS. This can be 64GB, 128GB, 256GB, or 512GB. Select it and on the top of the windows click the "Erase" button, wait for it to erase your disk, then click on the "Partition" button. There, click on the circle that contains your eMMC. If it doesn't let you apply the partiton, add a partiton by clicking the "+" button, selecting "Create partiton", then clicking the "-". You should be able to apply the partiton. Make sure your partiton scheme is APFS. After partitoning, exit Disk Utility and enter the macOS installer. Follow the prompts from the macOS installer and, once you actually start installing macOS, just wait. Make sure to keep watching your Pixelbook, because at some point, its gonna reboot.
 
