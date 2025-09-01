@@ -84,6 +84,8 @@ After typing the commands, you should be met with this:
 
 ![IMG_0483](https://github.com/user-attachments/assets/73f6da08-1ea6-4029-a4d2-e064168666a5)
 
+Before we proceed, plug in your USB flash drive to your Pixelbook. (DISCLAIMER! Make sure the flash drive you're using doesn't have any important data you need! This is because using the flash drive for this script will erase all of the data in it!)
+
 
 
 
