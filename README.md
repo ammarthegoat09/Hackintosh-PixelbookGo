@@ -22,14 +22,16 @@ I will be using my personal and testing Pixelbook Go for this guide. Most pictur
 
 # Specifications
 i5-8200Y, 16GB RAM, 128GB eMMC storage.
-If your Pixelbook doesn't have these specs, don't worry. This guide should be able to get the user macOS no matter the Pixelbook model.
+If your Pixelbook doesn't have these specs, don't worry. This guide should be able to get the user macOS no matter the Pixelbook model. (Unless you are using the Pixelbook 512GB model. This specific model won't work for this guide due to the fact that it uses NVMe. If you are not using NVMe, you can continue on with no problems.)
 
 # Flashing the Pixelbook
 If you have already flashed coreboot onto your Pixelbook, you can skip this. If you still have ChromeOS on your Pixelbook, keep reading.
 
 In order to install macOS onto your Pixelbook, you're going to need to flash coreboot. Coreboot is an open-source, Free Software bootloader that is aimed to change the firmware on someones computer. In this case, we are installing coreboot so that way we can remove the limitations of ChromeOS firmware. But how are we going to do it? First, we are going to need disable write-protect. What is write-protect you may ask? Well, simplified, its just a mechanism on your Pixelbook (Chromebooks in general) that is meant to stop the user from flashing any 3rd party firmware.
 
-There are two ways to disable write protect on your Pixelbook:
+## Disabiling write-protect
+
+There are two ways to disable write-protect on your Pixelbook:
 
 (1. Temporarily disconnecting the battery and keeping it disconnected until we flash firmware (which is what we will be doing for the guide)
 
@@ -37,11 +39,15 @@ There are two ways to disable write protect on your Pixelbook:
 
 
 
+In order to, temporarily, disconnect the battery on your Pixelbook, we need to do these things:
+
+## Removing the back cover
+
 There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. You should see something like this:
 
 ![My Image](pixelbook_closed.jpg)
 
-Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover CAREFULLY. there will be a black or orange strip connecting the cover to the motherboard. The strip should look like this:
+Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover and put it down CAREFULLY. There will be a black or orange strip connecting the cover to the motherboard. It is part of the battery, and ripping it will make your Pixelbook not be able to detect power unless plugged in (Trust me, it's not fun.). The strip should look like this:
 
 (The strip on this Pixelbook Go is broken. The back cover should be more lowered and the strip should be connected)
 
