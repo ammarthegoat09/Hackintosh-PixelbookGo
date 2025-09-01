@@ -90,7 +90,7 @@ Before we proceed, plug in your USB flash drive to your Pixelbook. (DISCLAIMER! 
 
 At the script, type the number 2 and press enter. You will be met with some warnings. Accept all the warnings and select your plugged in flash drive. Now you have to wait. Make sure not the unplug the flash drive during the process unless prompted to. Once the flashing process is done, reset your computer.
 
-Congrats! You have now flashed coreboot onto your Pixelbook/Pixelbook Go! Now, we can get into the process of making a bootable macOS installer.
+Congrats! You have now flashed coreboot onto your Pixelbook/Pixelbook Go! Now, we can get into the process of making a bootable macOS installer. (You can also plug the orange/black strip back in for the battery)
 
 # Creating the macOS installer
 
@@ -102,7 +102,9 @@ The first thing we need to do in order to make our installer is to go to [this](
  
 # Installing macOS
 
-We are now going through the process of installing macOS! 
+We are now going through the process of installing macOS! In order to even get to the installer, first, plug in your flash drive to your Pixelbook/Pixelbook Go. Then, turn it on. Once you see the coreboot logo pop up, click on Esc and you will be greeted to a menu. It should look like this:
+
+<img width="1024" height="768" alt="edk2_main_menu" src="https://github.com/user-attachments/assets/61f033a2-742c-4782-9e67-21f7749849e5" />
 
 
 
