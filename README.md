@@ -41,7 +41,7 @@ There are two ways to disable write-protect on your Pixelbook:
 
 In order to, temporarily, disconnect the battery on your Pixelbook, we need to do these things:
 
-## Removing the back cover
+**Removing the back cover**
 
 There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. You should see something like this:
 
