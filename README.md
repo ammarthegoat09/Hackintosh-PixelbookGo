@@ -39,7 +39,7 @@ There are two ways to disable write protect on your Pixelbook:
 
 There will be 2 black (or white if your using a Pixelbook) strips covering the areas of the screws if you haven't opened your Pixelbook before. Remove those two black or white strips to gain access to the screws. For the Pixelbook Go, there will be 10 screws. For the Pixelbook, there will be 17 screws. You should see something like this:
 
-![My Image](pixelbook\closed.jpg)
+![My Image](pixelbook_closed.jpg)
 
 Remove all the screws with your T5 Torx screwdriver. Once you remove all the screws, take off the back cover CAREFULLY. there will be a black or orange strip connecting the cover to the motherboard. The strip should look like this:
 
