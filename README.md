@@ -76,7 +76,10 @@ You have now succesfully disconnected your battery and disabled write-protect! O
 
 Once you turn on your Pixelbook, log in, or log in as guest, make sure you're connected to the internet and click the keys Crtl + Alt + Refresh (which looks like a loop). Once you click the keys at the same time, you will be met with a terminal. If clicking those keys don't do anything, make sure Developer Mode is on. At this terminal, log in with the name "chronos". In order to flash coreboot, we will be using [Mrchromebox](https://docs.mrchromebox.tech)'s Firmware Utility Script. This script will allow us to flash the requrired firmware for coreboot on our Pixelbook or Pixelbook Go. Once you log into the terminal, type the following commands:
 
-<pre> cd; curl -LO mrchromebox.tech/firmware-util.sh  </pre>
+<pre> cd; curl -LO mrchromebox.tech/firmware-util.sh </pre>
+<pre> sudo install -Dt /usr/local/bin -m 755 firmware-util.sh </pre>
+<pre> sudo firmware-util.sh </pre>
+
 
 
 
