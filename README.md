@@ -4,7 +4,7 @@ A simple, beginner friendly, guide to install macOS onto your Pixelbook Go as we
 # Prerequisites
 (1.   A Pixelbook or Pixelbook Go (Duh!).
 
-(2.   A spare computer. Doesn't matter the operating system. We'll need it to mkae the macOS bootable USB.
+(2.   A spare computer. Doesn't matter the operating system. We'll need it to make the macOS bootable USB.
 
 (3.   A USB flash drive with at least 8GB of free storage as well as a USB-C to USB-A adapter.
 
