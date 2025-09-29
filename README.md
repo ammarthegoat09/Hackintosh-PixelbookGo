@@ -157,7 +157,7 @@ I wouldn't completely suggest updating to macOS Sonoma mainly because of the spe
 (3. [yusufklncc+](https://github.com/yusufklncc) -- Responsible for providing the installer (the .raw file).
 
 
-Thanks for reading this guide! I hoped it helped you or others in installing macOS on a Pixelbook or Pixelbook Go! Please inform me if there are any grammar mistakes or unclear statements. Here's my personal email: ammar.krikib09@gmail.com
+Thanks for reading this guide! I hoped it helped you or others in installing macOS on a Pixelbook or Pixelbook Go! Please inform me if there are any grammar mistakes or unclear statements. Here's my email: ammar.krikib06@gmail.com
 
 
 
